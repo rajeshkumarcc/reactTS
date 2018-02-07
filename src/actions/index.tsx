@@ -2,24 +2,24 @@
 
 import * as constants from '../constants';
 
-export interface IncrementEnthusiam{
+export interface IncrementEnthusiasm {
   type: constants.INCREMENT_ENTHUSIASM;
 }
 
-export interface DecrementEnthusiam{
+export interface DecrementEnthusiasm {
   type: constants.DECREMENT_ENTHUSIASM;
 }
 
-export type EnthusiasmAction = IncrementEnthusiam | DecrementEnthusiam;
+export type EnthusiasmAction = IncrementEnthusiasm | DecrementEnthusiasm;
 
-export function incrementEnthusiam(): IncrementEnthusiam {
+export function incrementEnthusiasm(): IncrementEnthusiasm {
   return{
     type: constants.INCREMENT_ENTHUSIASM
-  }
+  };
 }
 
-export function decrementEnthusiam(): DecrementEnthusiam {
+export function decrementEnthusiasm(): DecrementEnthusiasm {
   return{
     type: constants.DECREMENT_ENTHUSIASM
-  }
+  };
 }
