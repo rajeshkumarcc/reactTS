@@ -12,9 +12,9 @@ class App extends React.Component {
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">Welcome to React</h1>
         </header>
-        <p className="App-intro">
-          <Hello name="Typescript" enthusiasmLevel={10} />
-        </p>
+        <div className="App-intro">
+          <Hello name="Typescript" enthusiasmLevel={3} />
+        </div>
       </div>
     );
   }
